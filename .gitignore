@@ -1,0 +1,9 @@
+output/*
+workout-audio-gen-7bd619782d9f.json
+.env
+
+# Ignore everything inside the folder
+audio_lib/*
+
+# Except for this specific file
+!audio_lib/text_to_audio_dict.json
