@@ -1,6 +1,7 @@
 import os
 import json
 import hashlib
+import time
 from google.cloud import texttospeech
 from pydub import AudioSegment
 
@@ -14,6 +15,11 @@ OUTPUT_DIR = os.path.join(BASE_DIR, 'output')
 
 # Audio Tuning
 TTS_SPEED = 1.25  # Speed multiplier (1.0 = normal, 1.25 = 25% faster)
+
+# Rate Limiting
+QUERIES_PER_MINUTE = 15
+MIN_REQUEST_INTERVAL = 60.0 / QUERIES_PER_MINUTE
+last_request_time = 0
 
 # Ensure directories exist
 os.makedirs(AUDIO_LIB_DIR, exist_ok=True)
@@ -41,6 +47,7 @@ def get_audio_segment_from_text(text):
     Retrieves an AudioSegment for the given text.
     Checks cache first; if missing, generates via gTTS.
     """
+    global last_request_time
     text = text.strip()
     if not text:
         return AudioSegment.empty()
@@ -62,6 +69,10 @@ def get_audio_segment_from_text(text):
     if not file_path:
         # Generate new audio
         print(f"Generating TTS for: {text[:40]}...")
+        elapsed = time.time() - last_request_time
+        if elapsed < MIN_REQUEST_INTERVAL:
+            time.sleep(MIN_REQUEST_INTERVAL - elapsed)
+
         file_hash = hashlib.md5(text.encode('utf-8')).hexdigest()
         filename = f"{file_hash}.wav"
         file_path = os.path.join(AUDIO_LIB_DIR, filename)
@@ -84,6 +95,7 @@ def get_audio_segment_from_text(text):
         response = client.synthesize_speech(
             input=synthesis_input, voice=voice, audio_config=audio_config
         )
+        last_request_time = time.time()
 
         with open(file_path, "wb") as out:
             out.write(response.audio_content)

@@ -1,0 +1,115 @@
+{
+    "voice": "placeholder",
+    "transcript": [
+        "Welcome to your 15 minute Upper Thoracic Mobility routine. You will need a foam roller and a wall for this session.",
+        
+        "First up is the Scorpion Stretch. Lie face down with arms in a T shape. Lift one leg, bend the knee, and reach it toward the opposite hand. Keep both shoulders flat on the floor. Use your non-moving arm to press lightly into the floor to deepen the stretch.",
+        "We will alternate sides for 10 reps each side, holding the end range for 3 seconds.",
+        {
+            "repeat": 10,
+            "transcript": [
+                "Lift left leg, reach to right hand. Hold for 3.",
+                {"break_sec": 3},
+                "Return to center.",
+                {"break_sec": 1},
+                "Lift right leg, reach to left hand. Hold for 3.",
+                {"break_sec": 3},
+                "Return to center.",
+                {"break_sec": 1}
+            ]
+        },
+
+        "Next is the Lumbar Lock Rotation. Sit on your heels in Child's Pose. Place your left hand behind your head and rotate that elbow toward the ceiling. This locks your lower back so the rotation happens in your upper back.",
+        "We will do 12 reps on the left side. Exhale deeply as you rotate the elbow up.",
+        {
+            "repeat": 12,
+            "transcript": [
+                "Rotate left elbow up. Exhale and hold for 2.",
+                {"break_sec": 2},
+                "Return down.",
+                {"break_sec": 1}
+            ]
+        },
+        "Now switch to the right side. Place your right hand behind your head.",
+        {
+            "repeat": 12,
+            "transcript": [
+                "Rotate right elbow up. Exhale and hold for 2.",
+                {"break_sec": 2},
+                "Return down.",
+                {"break_sec": 1}
+            ]
+        },
+
+        "Moving on to Foam Roller Thoracic Extension. Place a foam roller under your shoulder blades. Support your head and gently lean back. Keep your ribcage tucked down.",
+        "We will focus on 3 tight spots, doing 10 extensions per spot.",
+        "Find the first tight spot.",
+        {
+            "repeat": 10,
+            "transcript": [
+                "Lean back over the roller.",
+                {"break_sec": 2},
+                "Crunch back up.",
+                {"break_sec": 1}
+            ]
+        },
+        "Move the roller to a second tight spot.",
+        {"break_sec": 3},
+        {
+            "repeat": 10,
+            "transcript": [
+                "Lean back.",
+                {"break_sec": 2},
+                "Up.",
+                {"break_sec": 1}
+            ]
+        },
+        "Move the roller to the third tight spot.",
+        {"break_sec": 3},
+        {
+            "repeat": 10,
+            "transcript": [
+                "Lean back.",
+                {"break_sec": 2},
+                "Up.",
+                {"break_sec": 1}
+            ]
+        },
+
+        "Next is Open the Book. Lie on your left side with knees tucked to 90 degrees. Arc your top arm over your head to the floor behind you, following the movement with your eyes. Keep knees glued together.",
+        "8 slow arcs on this side.",
+        {
+            "repeat": 8,
+            "transcript": [
+                "Arc arm over head to floor behind. Open up.",
+                {"break_sec": 4},
+                "Close the book, arm back to start.",
+                {"break_sec": 2}
+            ]
+        },
+        "Swap sides. Lie on your right side.",
+        {"break_sec": 5},
+        {
+            "repeat": 8,
+            "transcript": [
+                "Arc arm over head to floor behind. Open up.",
+                {"break_sec": 4},
+                "Close the book.",
+                {"break_sec": 2}
+            ]
+        },
+
+        "Finally, Wall Angels. Stand with your back flat against a wall. Slide your arms up and down in a W to Y shape. Keep contact with the wall at your head, upper back, and tailbone.",
+        "15 controlled reps. Focus on keeping wrists and elbows against the wall.",
+        {
+            "repeat": 15,
+            "transcript": [
+                "Slide arms up to Y shape.",
+                {"break_sec": 3},
+                "Slide down to W shape, squeezing shoulder blades.",
+                {"break_sec": 3}
+            ]
+        },
+        "Great work. You have completed the upper thoracic mobility routine."
+    ]
+}
