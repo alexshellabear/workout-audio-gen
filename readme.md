@@ -14,11 +14,19 @@ Python environment can be found at C:\Users\alexs\venv\workout-audio-gen\Scripts
 # utilities
 - To reset audio generation there is a script delete_audio_lib_cache.py and this will remove all files in audio_lib/* except for text_to_audio_dict.json, which it will set to {}
 
-# Google Text-to-speech
-- service account 
-email: workout-audio-gen-service-acco@workout-audio-gen.iam.gserviceaccount.com
-name: workout-audio-gen-service-account
-- keys are stored in json
+# Google Text-to-speech Setup
+1. **Create a Google Cloud Project**: Go to the Google Cloud Console and create a new project.
+2. **Enable API**: Search for and enable the "Cloud Text-to-Speech API".
+3. **Create Service Account**:
+   - Navigate to "IAM & Admin" > "Service Accounts".
+   - Create a new service account.
+   - Grant the "Cloud Text-to-Speech API User" role.
+4. **Generate Key**:
+   - Select the service account, go to the "Keys" tab.
+   - Click "Add Key" > "Create new key" > Select "JSON".
+   - Download the file.
+5. **Configure Project**:
+   - Rename the downloaded file to `service_account.json` and place it in the project root.
 
 # Google TTS limitations
 - 240seconds hard limit

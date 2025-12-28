@@ -1,15 +1,11 @@
 import os
 import json
 import hashlib
-from dotenv import load_dotenv
 from google.cloud import texttospeech
 from pydub import AudioSegment
 
 # Configuration Paths
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-
-# Load environment variables from .env file
-load_dotenv(os.path.join(BASE_DIR, '.env'))
 
 TRANSCRIPTS_DIR = os.path.join(BASE_DIR, 'json_transcripts')
 AUDIO_LIB_DIR = os.path.join(BASE_DIR, 'audio_lib')
@@ -55,6 +51,7 @@ def get_audio_segment_from_text(text):
     for fname, content in text_to_audio_map.items():
         if content == text:
             existing_filename = fname
+            print(f"Using cached audio for: {text[:40]}...")
             break
     
     if existing_filename:

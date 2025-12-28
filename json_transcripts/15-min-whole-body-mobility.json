@@ -4,15 +4,16 @@
         "Make sure you have a yoga matt, pillow and wall nearby for your exercises.",
         "Start seated at a chair and perform a figure 4 stretch with your left leg up for 40 seconds. Keep your back straight and core engaged as you pivot from the hips.",
         {"break_sec":40},
-        "Swap to your right leg and hold for 40 seconds",
+        "Swap to your right leg, and hold for 40 seconds",
         {"break_sec":40},
         "Swap to your left leg and hold for 40 seconds",
         {"break_sec":40},
         "Swap to your right leg and hold for 40 seconds",
+        {"break_sec":40},
 
-        "Stand up and find a chair or couch to rest your left heel on. Keep your leg straight by engaging your quads, flexing your feet and engaging your  core then lean in and pivot from your hips. Feel the stretch in your hamstring and calf. You’ll hold for 5 seconds then lift to engage your hip flexor and lift your left leg to your waist for 3 seconds. Here we go.",
+        "Stand up and find a chair or couch to rest your left heel on. Keep your leg straight by engaging your quads, flexing your feet and engaging your core then lean in and pivot from your hips. Feel the stretch in your hamstring and calf. You’ll hold for 5 seconds then lift to engage your hip flexor and lift your left leg to your waist for 3 seconds. Here we go.",
         {
-            "repeat":12,
+            "repeat": 12,
             "transcript":[
                 "Left heel down, hold 5.",
                 {"break_sec":5},
@@ -32,52 +33,45 @@
             ]
         },
 
-        "Stand on your knees and stick your left leg to the side so that your toes face away from your left side and your left knee is at 90 degrees. Engage your glutes to push your pelvis forwards. Put your hands on the back of your head and lift your chest up.",
-        "Move to the left putting your left knee over your toes then drop the left elbow to left knee and hold for 5 seconds.",
-        {"break_sec":5},
-        "Bring your spine back to neutral then move your left knee so it is over your left ankle. Pause for a second.",
-        {"break_sec":1},
+        "Stand on your knees and place your left leg to the side so that your toes face away from your left side and your left knee is at 90 degrees. Engage your glutes to push your pelvis forwards. Put your hands on the back of your head and lift your chest up.",
         {
-            "repeat":4,
+            "repeat": 5,
             "transcript":[
-                "Move to the left then drop your elbow. Hold for 5 seconds.",
+                "Move to the left then drop your elbow to your knee. Hold for 5.",
                 {"break_sec":5},
-                "Spine to neutral then move your left knee.",
+                "Spine to neutral and left knee to 90 degrees.",
                 {"break_sec":1}
             ]
         },
-        "Move to the right putting your right knee over your toes then drop the right elbow to right knee and hold for 5 seconds.",
-        {"break_sec":5},
-        "Bring your spine back to neutral then move your right knee so it is over your right ankle. Pause for a second.",
-        {"break_sec":1},
+        "Swap sides. Return to sitting on your knees and place your right foot to the side so that your toes face away from your right side and your right knee is at 90 degrees",
         {
-            "repeat":4,
+            "repeat": 5,
             "transcript":[
-                "Move to the right then drop your elbow. Hold for 5 seconds.",
+                "Move to the right then drop your elbow to your knee. Hold for 5.",
                 {"break_sec":5},
-                "Spine to neutral then move your right knee.",
+                "Spine to neutral and right knee to 90 degrees.",
                 {"break_sec":1}
             ]
         },
 
         "Now for a couch stretch variation.",
-        "Get a pillow and rest it on the ground in front of a couch with soft edges as your don't want to kill your shins. Start the couch stretch by putting your left knee on the ground and left front foot on the couch. There should be enough room so you can tense your glutes to bring your pelvis forwards and now your right foot is planted so the right knee is 90 degrees. You will oscilate between the quad stretch for 3 seconds then the hip flexor stretch.",
+        "Get a pillow and rest it on the ground in front of a couch with soft edges as your don't want to kill your shins. Start the couch stretch by putting your left knee on the ground and left front foot on the couch. There should be enough room so you can tense your glutes to bring your pelvis forwards and now your right foot is planted so the right knee is 90 degrees. You are going to oscilate between the quad stretch and hip flexor stretch.",
         {
-            "repeat":12,
+            "repeat": 8,
             "transcript":[
-                "Press into the couch, tensing your left glute and hamstring.",
+                "Press into the couch, tensing your left glute and hamstring. Hold for 3.",
                 {"break_sec":3},
-                "Push your right knee forwards and scoop your pelvis for a left hip flexor stretch.",
+                "Push your right knee forwards and scoop your pelvis. Hold for 3. ",
                 {"break_sec":3}
             ]
         },
         "Swap to the other side placing your right knee on the pillow and right foot on the couch. Your left foot should be firmly planted forward with your knee at 90 degrees.",
         {
-            "repeat":12,
+            "repeat": 8,
             "transcript":[
-                "Press into the couch, tensing your right glute and hamstring.",
+                "Press into the couch, tensing your right glute and hamstring. Hold for 3.",
                 {"break_sec":3},
-                "Push your left knee forwards and scoop your pelvis for a right hip flexor stretch.",
+                "Push your left knee forwards and scoop your pelvis. Hold for 3.",
                 {"break_sec":3}
             ]
         },
@@ -85,21 +79,21 @@
         "Now for a world's greatest stretch variation.",
         "move into lizard pose with your left foot forward and planted so your knee is 90 degrees but right knee is down.",
         {
-            "repeat":12,
+            "repeat": 4,
             "transcript":[
-                "Plant your right hand on the floor and twist your left and upwards and reach for the sky.",
+                "Plant your right hand on the floor, twist left and upwards to reach for the sky. Hold for 3.",
                 {"break_sec":3},
-                "Pull your left elbow to the ground to the right of your left foot.",
+                "Pull your left elbow to the ground foot. Hold for 3.",
                 {"break_sec":3}
             ]
         },
         "Swap sides, plant your right foot on the ground in front of you and right knee over the foot.",
         {
-            "repeat":12,
+            "repeat": 4,
             "transcript":[
-                "Plant your left hand on the floor and twist your right and upwards and reach for the sky.",
+                "Plant your left hand on the floor, twist right and upwards to reach for the sky. Hold for 3.",
                 {"break_sec":3},
-                "Pull your right elbow to the ground to the left of your right foot.",
+                "Pull your left elbow to the ground foot. Hold for 3.",
                 {"break_sec":3}
             ]
         }

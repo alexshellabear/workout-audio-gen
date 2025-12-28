@@ -1,5 +1,5 @@
 output/*
-workout-audio-gen-7bd619782d9f.json
+service_account.json
 .env
 
 # Ignore everything inside the folder
