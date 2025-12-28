@@ -1,0 +1,67 @@
+{
+    "voice": "placeholder",
+    "transcript": [
+        "Welcome to your 10 minute Office Break Mobility routine. This session is equipment-free and designed to be done at your desk.",
+        
+        "First is the Seated Figure 4. Sit at the edge of your chair. Cross your right ankle over your left knee. Keep your spine tall and gently lean forward from your hips until you feel a deep stretch in your outer glute.",
+        "Hold for 45 seconds on this side. Lean forward incrementally as you exhale.",
+        {"break_sec": 45},
+        "Switch sides. Cross your left ankle over your right knee.",
+        "Hold for 45 seconds.",
+        {"break_sec": 45},
+
+        "Next is the Seated Zenith Rotation. Lean forward and place your left hand on your right ankle. Reach your right arm straight up toward the ceiling, following your hand with your eyes. Imagine a string pulling the crown of your head to the ceiling to stay tall.",
+        "We will do 10 slow reps on the right side.",
+        {
+            "repeat": 10,
+            "transcript": [
+                "Rotate right arm up. Hold for 2.",
+                {"break_sec": 2},
+                "Return down.",
+                {"break_sec": 1}
+            ]
+        },
+        "Switch sides. Place your right hand on your left ankle.",
+        {
+            "repeat": 10,
+            "transcript": [
+                "Rotate left arm up. Hold for 2.",
+                {"break_sec": 2},
+                "Return down.",
+                {"break_sec": 1}
+            ]
+        },
+
+        "Stand up for the Standing Hip Flexor Stretch. Hold your chair for balance. Take a step back with your right leg, keeping the heel off the floor. Tuck your tailbone and slightly bend both knees.",
+        "Squeeze the glute of the back leg. Hold for 45 seconds.",
+        {"break_sec": 45},
+        "Switch legs. Step back with your left leg.",
+        "Hold for 45 seconds.",
+        {"break_sec": 45},
+
+        "Sit back down for Seated Thoracic Extension. Sit tall in your chair. Interlace fingers behind your head and gently lean back over the top of the chair. Use the chair as a fulcrum.",
+        "10 slow pulses. Avoid arching your lower back.",
+        {
+            "repeat": 10,
+            "transcript": [
+                "Lean back over the chair.",
+                {"break_sec": 2},
+                "Return to neutral.",
+                {"break_sec": 2}
+            ]
+        },
+
+        "Finally, Wall Angels. Stand with your head, upper back, and tailbone against a wall. Arms in a W shape.",
+        "15 controlled reps. Focus on keeping wrists and elbows in contact with the wall to reset your posture.",
+        {
+            "repeat": 15,
+            "transcript": [
+                "Slide arms up.",
+                {"break_sec": 2},
+                "Slide down to W.",
+                {"break_sec": 2}
+            ]
+        },
+        "Great job. You have completed your office break mobility routine."
+    ]
+}
